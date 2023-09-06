@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://kit.fontawesome.com/f431766bae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:#cccccc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#blank{
+    height: 0.8rem;
+    width: 100%;
+    background: rgb(17,193,237);
+background: linear-gradient(65deg, rgba(17,193,237,1) 31%, rgba(11,52,162,1) 97%);
+}
+
+#main{
+    width: 40rem;
+    height: 100vh;
+    background-color: #262626;
+    margin: 0 auto;
+}
+.header-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline;
+}
+.logo{
+    width: 7rem;
+    height: 4rem;
+    top:0.5rem;
+    position: relative;
+}
+.logo1{
+    width: 9rem;
+    height: 5rem;
+}
+.header{
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    margin: 0;
+
+}
+.banner1{
+    width: 50%S;
+    height: 23rem;
+}
+.banner{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+    
+
+
+}
+.brain{
+    width: 60%;
+    height: 100%;
+
+    
+    
+}
+.text1{
+    width: 40%;
+    height: 100%;
+    margin: 1.4rem;
+   
+   background: rgb(17,193,237);
+   background: linear-gradient(65deg, rgba(17,193,237,1) 31%, rgba(11,52,162,1) 97%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 50px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 120px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    position: relative;
+    bottom: 5rem;
+    left: 25rem;
+  }
+  
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  
+  .btn{
+    text-decoration: none;
+  }
+  .button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 5px 0;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    font-size: 0.8rem;
+  }
+  .end{
+    width: 100%;
+    height: 23rem;
+    color: white;
+    background-color: black;
+}
+
+.exp h4{
+    background: rgb(17,193,237);
+    background: linear-gradient(65deg, rgba(17,193,237,1) 31%, rgba(11,52,162,1) 97%);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}
+.exp h5{
+    position: relative;
+    background: rgb(17,193,237);
+    background: linear-gradient(65deg, rgba(17,193,237,1) 31%, rgba(11,52,162,1) 97%);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     left:5.2rem
+
+}
+.end {
+    padding: 2rem;
+    padding-top: 5rem;
+    font-size: 1rem;
+}
+.end h5{
+    line-height: 1.5rem;
+}
+.end p{
+    font-size: 0.78rem;
+    text-align: center;
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+.socials ul li{
+margin: 0.7rem;
+font-size: 1.5rem;
+}
+
+#yo{
+    background: rgb(114,67,180);
+    background: linear-gradient(65deg, rgba(114,67,180,1) 16%, rgba(24,202,215,1) 89%);
+    -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}
+.cp{
+   font-size: 0.78rem;
+   text-align: center;
+}
+
+.socials ul li a{
+    text-decoration: none;
+    color: white;
+}
+  
+  .button-64:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 20px;
+      min-width: 120px;
+    }
+  }
+.para{
+    margin: rem;
+    text-align: center;
+    color: aliceblue;
+}
+#dear{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.para1{
+    margin: 1.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 0.9rem;
+}
+.why{
+    width: 100%;
+    height: 15rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.why2{
+
+    background: rgb(17,193,237);
+background: linear-gradient(65deg, rgba(17,193,237,1) 5%, rgba(83,52,162,0.865983893557423) 83%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-top: 2rem;
+    right: -1.4rem;
+    font-size: 1.6rem;
+}
+.para2{
+    margin: 1.5rem;
+    margin-top: 1rem;
+    text-align: left;
+    color: aliceblue;
+    font-size: 0.9rem;
+}
+
+.symbol{
+    color: white;
+    background-color: #262626;
+    font-size: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: box-shadow 0.25s ease-in-out, background-color 0.2s ease-in-out;
+
+}
+
+
+
+    
+
+.offer{
+    background: black;
+    width: 100%;
+    height: 7rem;
+
+}
+.offer h3{
+    background: rgb(17,193,237);
+    background: linear-gradient(65deg, rgba(17,193,237,1) 5%, rgba(83,52,162,0.865983893557423) 83%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    font-size: 2rem;
+
+}
+
+.symbol:hover{
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px rgba(17,193,237,1);
+}
+.icontab{
+    background-color: black;
+    width: 100%;
+    height: 30rem;
+    padding-top: 1rem;
+    
+}
+.maintab{
+    margin: 0 auto 0 auto;
+    color: white;
+    width:100%;
+    height: 29rem;
+    
+}
+.iconcolumn1{
+    width: 1%;
+    text-align: center;
+    
+}
+.iconcolumn2{
+    width: 1%;
+    text-align: center;
+}
+.iconcolumn3{
+    width: 1%;
+    text-align: center;
+}
+.iconcolumn4{
+    width: 1%;
+    text-align: center;
+}.iconcolumn5{
+    width: 500px;
+    text-align: center;
+    
+}
+
+
+
+.txtcolumn1{
+    width: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+    
+}
+.txtcolumn2{
+    width: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+}.txtcolumn3{
+    width: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+}.txtcolumn4{
+    width: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+}.txtcolumn5{
+    width: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.advantages{
+    width: 100%;
+    height: 23rem;
+    background-color:black;
+}
+.growth{
+    width: 100%;
+    
+
+}
+#blank2{
+    width: 100%;
+    height:5rem;
+    background-color: black;
+    text-align: center;
+}
+
+#blank2 h3{
+    background: rgb(17,193,237);
+    background: linear-gradient(65deg, rgba(17,193,237,1) 5%, rgba(83,52,162,0.865983893557423) 83%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    position: relative;
+    top: 4rem;
+    font-size: 2rem;
+     
+}
+h4{
+    display: inline;
+}
+#adv{
+    position: relative;
+    width: 55%;
+    bottom: 22rem;
+    height: 30rem;
+    color: aliceblue;
+    font-size: 0.8rem;
+    margin: 1.5rem;
+
+}
+#adv ul{
+    list-style: disc;
+
+}
+#adv ul li::before {content: "•"; color: white;
+    display: inline-block; width: 1em;
+    margin-left: -1em}
+
+.exp{
+ width: 100%;
+ height: 23rem;
+ background-color: black;
+ text-align: center;
+ color: white;
+}
+.threat{
+    background: rgb(17,193,237);
+    background: linear-gradient(65deg, rgba(17,193,237,1) 5%, rgba(83,52,162,0.865983893557423) 83%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    position: relative;
+    top: 2.5rem;
+
+}
+.exp p{
+    font-size: 0.9rem;
+    margin:2rem;
+    margin-top: 4.2rem;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 200; 
+}
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+        <div id="blank"></div>
+        <header>
+        <div class="header">
+            <ul class="header-ul">
+                 <li><a href="https://fridayintel.in" target="_blank"><img src="fridaylogo.png" class="logo"></a></li>
+                 <li><a href="https://fridayintel.in" target="_blank"><img src="fridaylogo4.png" class="logo1"></a></li>
+            </ul>
+        </div>
+        </header>
+                <div class="banner">
+                    
+                    <img src="brain-qNx08zcal-transformed.jpeg" class="brain">
+                    <h2 class="text1">Unleash the Power of Knowledge with Friday Intel's Threat Intelligence Solutions!</h2>
+                </div>
+                <a href="https://fridayintel.com/#Products" class="btn"><button class="button-64" role="button"><span class="text">Learn More</span></button></a>
+                
+                <div class="para">
+                <h3 id="dear">Dear Agency</h3>
+                <p class="para1">We hope this email finds you well and thriving in your pursuit of cybersecurity excellence. At Friday Intel, we are not just a company; we are your partner in navigating the ever-evolving landscape of cyber threats. Our mission is to empower businesses like yours with the insights, tools, and intelligence needed to stay one step ahead of malicious actors.</p>
+                </div>
+        <div class="why">
+              <img src="bulb2.jpeg" width="250px">
+              <div>
+                <h3 class="why2">Why Friday Intel?</h3>
+                <p class="para2">In today's digital world, threats are as relentless as the days of the week. That's why we've curated a suite of unparalleled threat intelligence solutions to arm you with the knowledge necessary to safeguard your digital assets, customer trust, and reputation.</p>
+              </div>
+        </div>
+        <div class="offer">
+            <h3>Our Key Offerings</h3>
+        </div>
+        <div class="icontab">
+             <table class="maintab">
+                <tr class="mainrow1">
+                    <td>
+                        <table>
+                            <tr class="secondaryrow1">
+                                <td class="iconcolumn1">
+                                    <i class="fa-solid fa-database symbol"></i>
+                                </td>
+                                <td class="iconcolumn2">
+                                    <i class="fa-solid fa-person-booth symbol"> </i>
+                                </td>
+                            </tr>
+                            <tr class="secondaryrow1">
+                                <td class="txtcolumn1">
+                                    <h4>Database Collection</h4>
+                                </td>
+                                <td class="txtcolumn2">
+                                    <h4>Case Profiling</h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="mainrow2">                    <td>
+                        <table>
+                            <tr class="secondaryrow1">
+                                <td class="iconcolumn3">
+                                    <i class="fa-brands fa-ubuntu symbol"></i>
+                                </td>
+                                <td class="iconcolumn4">
+                                    <i class="fa-solid fa-font symbol"></i>
+                                </td>
+                            </tr>
+                            <tr class="secondaryrow2">
+                                <td class="txtcolumn3">
+                                    <h4>Connectable Data</h4>
+                                </td>
+                                <td class="txtcolumn4">
+                                    <h4>Keyword Monitoring</h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="mainrow2">
+                    <td>
+                        <table>
+                            <tr class="secondaryrow1">
+                                <td class="iconcolumn5">
+                                    <i class="fa-solid fa-circle-nodes symbol"></i>
+                                </td>
+                            </tr>
+                            <tr class="secondaryrow1">
+                                <td class="txtcolumn5">
+                                    <h4>OSINT Techniques Embedded</h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+             </table>
+        </div>
+        <div id="blank2"><h3>Advantages of Friday Intel</h3></div>
+        <div class="advantages">
+            <img src="bgimage2.png" class="growth">
+                <div id="adv">
+                    <ul>
+                        <li><h4>Unrivaled Acuracy: </h4><p>Our intelligence is sourced from a vast network of reputable partners and analyzed using advanced machine learning techniques.</p></li><br>
+                        <li><h4>Timely Alerts:</h4><p>Gain a competitive edge by receiving real-time alerts and updates, allowing you to respond swiftly to emerging threats.</li><br>
+                        <li><h4>Tailored Solutions: </h4><p>We understand that no two businesses are the same. Our solutions are customizable to meet your unique security needs.</li><br>
+                        <li><h4>Global Reach: </h4><p>Global Reach: With a global perspective on threats, we provide insights into region-specific risks and global threat trends.</li><br>
+                    </ul>
+                </div>       
+        </div>
+        <div class="exp">
+            <h3 class="threat"> Experience the Future of Threat Intelligence Today!</h3>
+            <p>Your digital assets are invaluable, and safeguarding them is non-negotiable. Partner with Friday Intel to elevate your cybersecurity strategy and ensure your business thrives in the face of adversity.
+                <br> Visit our website <a href="https://fridayintel.com/" style="color: #00DDEB; text-decoration: none;"">Friday Intel </a>to explore our comprehensive range of threat intelligence solutions and take the first step toward a more secure future.</p>
+            <h4>We have attached our Brochure with the mail, kindly go through it<br></h4><br>
+            <h4 id="yo">Don't let cyber threats dictate your success<br>
+                <h5 id="yo">-take control with Friday<br></h5>
+
+        </div>
+        <div class="end">
+            <h5>Warm regards,<br>
+
+Gaurav Chaudhary<br>
+CEO, Friday Intel<br></h5>
+<br>
+<br>
+<br>
+<p>Follow us on Instagram, Twitter and LinkedIn for the latest updates and insights on cybersecurity trends!<br></p>
+<br>
+<div class="socials">
+   <ul>
+    <li><a href="https://www.instagram.com/thefridayintel/"><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href="https://www.instagram.com/thefridayintel/"><i class="fa-brands fa-x-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/thefridayintel/"><i class="fa-brands fa-linkedin"></i></a></li>
+   </ul>
+</div>
+<br>
+<div class="cp">
+    
+© 2023 Friday Intel. All rights reserved.
+</div>
+        </div>
+</body>
+</html>
